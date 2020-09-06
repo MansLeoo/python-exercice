@@ -35,7 +35,16 @@ taille=int(input("Taille du Sapin : "));
 for i in range(taille):
     print(' '*(taille-1-i)+'^'*(1+2*i))
     
-    
+"_______________________________________"
+"Exercie 4"
+priceht=int(input("Prix HT :"));
+while priceht!=0
+    print("Prix TTC = "str(priceht*1,2))
+    priceht=int(input("Prix HT :"));
+"_______________________________________"
+
+
+"Exercice 5"
 def amende(poule,chiens,vache,ami) :
     pointperdu=poule*1+chiens*3+vache*5+ami*10
     point=pointperdu/100
@@ -53,7 +62,9 @@ ch=int(input("Combien de chiens tués ?"))
 va=int(input("Combien de vaches tuées ? "))
 ami=int(input("Combien d'amis tués ? "))
 print("Il faudrat payer : "+str(amende(po,ch,va,ami))+"€ d'amende.")
-"""
+"_______________________________________"
+"Exercice 6"
+
 carac=[]
 compt2=0
 harp=int(input("Poid de Haruchi : "))
@@ -69,3 +80,19 @@ for f in range (len(carac)):
      if rationa>ratiob :
          compt2=compt2+1
 print("Il y a "+str(compt2)+" d'animaux qui mangent plus que Haruhi par rapport à leurs poids.")
+"_______________________________________"
+"""
+"Exercice 7"
+def verifAdn(adn:str) :
+    for i in adn:
+        if i !="a" or i !="t" or i !="g" or i !="c" :
+            return False
+        else :
+            return True
+def proportion(adn:str,sequence:str):
+    
+    
+
+
+
+
