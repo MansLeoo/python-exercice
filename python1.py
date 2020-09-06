@@ -35,7 +35,7 @@ taille=int(input("Taille du Sapin : "));
 for i in range(taille):
     print(' '*(taille-1-i)+'^'*(1+2*i))
     
-"""    
+    
 def amende(poule,chiens,vache,ami) :
     pointperdu=poule*1+chiens*3+vache*5+ami*10
     point=pointperdu/100
@@ -52,5 +52,20 @@ po=int(input("Combien de poules tuées ?"))
 ch=int(input("Combien de chiens tués ?"))
 va=int(input("Combien de vaches tuées ? "))
 ami=int(input("Combien d'amis tués ? "))
-print("Il faudrat payer :"+str(amende(po,ch,va,ami))+"€ d'amende.")
-    
+print("Il faudrat payer : "+str(amende(po,ch,va,ami))+"€ d'amende.")
+"""
+carac=[]
+compt2=0
+harp=int(input("Poid de Haruchi : "))
+harno=int(input("Quantité de nourriture que Haruchi mange par jour : "))
+anim=int(input("Nombre d'animaux : "))
+ratiob=harno/harp
+for e in range (anim) :
+    numa=e+1
+    caracval=str(input("Carac animaux n°"+str(numa)+" "))
+    carac.append(caracval.split(" "));
+for f in range (len(carac)):
+     rationa=int(carac[f][1])/int(carac[f][0])
+     if rationa>ratiob :
+         compt2=compt2+1
+print("Il y a "+str(compt2)+" d'animaux qui mangent plus que Haruhi par rapport à leurs poids.")
