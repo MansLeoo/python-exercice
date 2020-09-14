@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from random import *
 
-"Exercice 1"
+"Exercice 1 calcule volume"
 pi=3.14
 r=float(input("Rayon : "))
 h=float(input("hauteur : "))
@@ -24,6 +24,7 @@ while gagner !=1 :
         print("Nombre trop petit !");
         nbre=nbre+1
     if userep==rep :
+        nbre=nbre+1
         print("Gagner ! Nombre de tentative : ",nbre)
         gagner=1
 "_______________________________________"
