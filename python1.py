@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from random import *
-"""
+
 "Exercice 1"
 pi=3.14
 r=float(input("Rayon : "))
@@ -34,12 +34,12 @@ while gagner !=1 :
 taille=int(input("Taille du Sapin : "));
 for i in range(taille):
     print(' '*(taille-1-i)+'^'*(1+2*i))
-    
+
 "_______________________________________"
 "Exercie 4"
 priceht=int(input("Prix HT :"));
-while priceht!=0
-    print("Prix TTC = "str(priceht*1,2))
+while priceht!=0:
+    print("Prix TTC = ",str(priceht*1,2))
     priceht=int(input("Prix HT :"));
 "_______________________________________"
 
@@ -81,18 +81,3 @@ for f in range (len(carac)):
          compt2=compt2+1
 print("Il y a "+str(compt2)+" d'animaux qui mangent plus que Haruhi par rapport à leurs poids.")
 "_______________________________________"
-"""
-"Exercice 7"
-def verifAdn(adn:str) :
-    for i in adn:
-        if i !="a" or i !="t" or i !="g" or i !="c" :
-            return False
-        else :
-            return True
-def proportion(adn:str,sequence:str):
-    
-    
-
-
-
-
